@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E03493D31BB1DFDA00824FD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E03493D21BB1DFDA00824FD4 /* main.m */; };
+		E03493D61BB1DFDA00824FD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E03493D51BB1DFDA00824FD4 /* AppDelegate.m */; };
+		E03493D91BB1DFDA00824FD4 /* taskmanager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E03493D71BB1DFDA00824FD4 /* taskmanager.xcdatamodeld */; };
+		E03493DC1BB1DFDA00824FD4 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03493DB1BB1DFDA00824FD4 /* MasterViewController.m */; };
+		E03493DF1BB1DFDA00824FD4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03493DE1BB1DFDA00824FD4 /* DetailViewController.m */; };
+		E03493E21BB1DFDA00824FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03493E01BB1DFDA00824FD4 /* Main.storyboard */; };
+		E03493E41BB1DFDA00824FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E03493E31BB1DFDA00824FD4 /* Assets.xcassets */; };
+		E03493E71BB1DFDA00824FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03493E51BB1DFDA00824FD4 /* LaunchScreen.storyboard */; };
+		E03494591BB43B7800824FD4 /* Task+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E03494521BB43B7800824FD4 /* Task+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		E034945A1BB43B7800824FD4 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = E03494541BB43B7800824FD4 /* Task.m */; settings = {ASSET_TAGS = (); }; };
+		E034945B1BB43B7800824FD4 /* TaskCategory+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E03494561BB43B7800824FD4 /* TaskCategory+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		E034945C1BB43B7800824FD4 /* TaskCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E03494581BB43B7800824FD4 /* TaskCategory.m */; settings = {ASSET_TAGS = (); }; };
+		E0C13CCA1BB4AD0100956025 /* TaskTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C13CC91BB4AD0100956025 /* TaskTableCell.m */; settings = {ASSET_TAGS = (); }; };
+		E0C13CCD1BB57E4800956025 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C13CCC1BB57E4800956025 /* SettingsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E0C13CD01BB5913800956025 /* CategoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C13CCF1BB5913800956025 /* CategoryDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E0C13CD61BB5BE0300956025 /* SettingsSortTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C13CD51BB5BE0300956025 /* SettingsSortTableCell.m */; settings = {ASSET_TAGS = (); }; };
+		E0C13CD91BB5BF3700956025 /* SettingsNotificationsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C13CD81BB5BF3700956025 /* SettingsNotificationsTableCell.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E03493CE1BB1DFDA00824FD4 /* taskmanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskmanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03493D21BB1DFDA00824FD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E03493D41BB1DFDA00824FD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E03493D51BB1DFDA00824FD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E03493D81BB1DFDA00824FD4 /* taskmanager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = taskmanager.xcdatamodel; sourceTree = "<group>"; };
+		E03493DA1BB1DFDA00824FD4 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E03493DB1BB1DFDA00824FD4 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E03493DD1BB1DFDA00824FD4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E03493DE1BB1DFDA00824FD4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E03493E11BB1DFDA00824FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E03493E31BB1DFDA00824FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E03493E61BB1DFDA00824FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E03493E81BB1DFDA00824FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03494511BB43B7800824FD4 /* Task+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Task+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E03494521BB43B7800824FD4 /* Task+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Task+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E03494531BB43B7800824FD4 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		E03494541BB43B7800824FD4 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		E03494551BB43B7800824FD4 /* TaskCategory+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TaskCategory+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E03494561BB43B7800824FD4 /* TaskCategory+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TaskCategory+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E03494571BB43B7800824FD4 /* TaskCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCategory.h; sourceTree = "<group>"; };
+		E03494581BB43B7800824FD4 /* TaskCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCategory.m; sourceTree = "<group>"; };
+		E0C13CC81BB4AD0100956025 /* TaskTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskTableCell.h; sourceTree = "<group>"; };
+		E0C13CC91BB4AD0100956025 /* TaskTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskTableCell.m; sourceTree = "<group>"; };
+		E0C13CCB1BB57E4800956025 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		E0C13CCC1BB57E4800956025 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		E0C13CCE1BB5913800956025 /* CategoryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryDetailViewController.h; sourceTree = "<group>"; };
+		E0C13CCF1BB5913800956025 /* CategoryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryDetailViewController.m; sourceTree = "<group>"; };
+		E0C13CD41BB5BE0300956025 /* SettingsSortTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsSortTableCell.h; sourceTree = "<group>"; };
+		E0C13CD51BB5BE0300956025 /* SettingsSortTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsSortTableCell.m; sourceTree = "<group>"; };
+		E0C13CD71BB5BF3700956025 /* SettingsNotificationsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsNotificationsTableCell.h; sourceTree = "<group>"; };
+		E0C13CD81BB5BF3700956025 /* SettingsNotificationsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsNotificationsTableCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E03493CB1BB1DFDA00824FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E03493C51BB1DFDA00824FD4 = {
+			isa = PBXGroup;
+			children = (
+				E03493D01BB1DFDA00824FD4 /* taskmanager */,
+				E03493CF1BB1DFDA00824FD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E03493CF1BB1DFDA00824FD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E03493CE1BB1DFDA00824FD4 /* taskmanager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E03493D01BB1DFDA00824FD4 /* taskmanager */ = {
+			isa = PBXGroup;
+			children = (
+				E03493D41BB1DFDA00824FD4 /* AppDelegate.h */,
+				E03493D51BB1DFDA00824FD4 /* AppDelegate.m */,
+				E03493DA1BB1DFDA00824FD4 /* MasterViewController.h */,
+				E03493DB1BB1DFDA00824FD4 /* MasterViewController.m */,
+				E03493DD1BB1DFDA00824FD4 /* DetailViewController.h */,
+				E03493DE1BB1DFDA00824FD4 /* DetailViewController.m */,
+				E0C13CC81BB4AD0100956025 /* TaskTableCell.h */,
+				E0C13CC91BB4AD0100956025 /* TaskTableCell.m */,
+				E0C13CCB1BB57E4800956025 /* SettingsTableViewController.h */,
+				E0C13CCC1BB57E4800956025 /* SettingsTableViewController.m */,
+				E0C13CD41BB5BE0300956025 /* SettingsSortTableCell.h */,
+				E0C13CD51BB5BE0300956025 /* SettingsSortTableCell.m */,
+				E0C13CD71BB5BF3700956025 /* SettingsNotificationsTableCell.h */,
+				E0C13CD81BB5BF3700956025 /* SettingsNotificationsTableCell.m */,
+				E0C13CCE1BB5913800956025 /* CategoryDetailViewController.h */,
+				E0C13CCF1BB5913800956025 /* CategoryDetailViewController.m */,
+				E03493E01BB1DFDA00824FD4 /* Main.storyboard */,
+				E03493E31BB1DFDA00824FD4 /* Assets.xcassets */,
+				E03493E51BB1DFDA00824FD4 /* LaunchScreen.storyboard */,
+				E03493E81BB1DFDA00824FD4 /* Info.plist */,
+				E03493D71BB1DFDA00824FD4 /* taskmanager.xcdatamodeld */,
+				E03494511BB43B7800824FD4 /* Task+CoreDataProperties.h */,
+				E03494521BB43B7800824FD4 /* Task+CoreDataProperties.m */,
+				E03494531BB43B7800824FD4 /* Task.h */,
+				E03494541BB43B7800824FD4 /* Task.m */,
+				E03494551BB43B7800824FD4 /* TaskCategory+CoreDataProperties.h */,
+				E03494561BB43B7800824FD4 /* TaskCategory+CoreDataProperties.m */,
+				E03494571BB43B7800824FD4 /* TaskCategory.h */,
+				E03494581BB43B7800824FD4 /* TaskCategory.m */,
+				E03493D11BB1DFDA00824FD4 /* Supporting Files */,
+			);
+			path = taskmanager;
+			sourceTree = "<group>";
+		};
+		E03493D11BB1DFDA00824FD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E03493D21BB1DFDA00824FD4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E03493CD1BB1DFDA00824FD4 /* taskmanager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E03493EB1BB1DFDA00824FD4 /* Build configuration list for PBXNativeTarget "taskmanager" */;
+			buildPhases = (
+				E03493CA1BB1DFDA00824FD4 /* Sources */,
+				E03493CB1BB1DFDA00824FD4 /* Frameworks */,
+				E03493CC1BB1DFDA00824FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taskmanager;
+			productName = taskmanager;
+			productReference = E03493CE1BB1DFDA00824FD4 /* taskmanager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E03493C61BB1DFDA00824FD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Lukas Machalik";
+				TargetAttributes = {
+					E03493CD1BB1DFDA00824FD4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = E03493C91BB1DFDA00824FD4 /* Build configuration list for PBXProject "taskmanager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E03493C51BB1DFDA00824FD4;
+			productRefGroup = E03493CF1BB1DFDA00824FD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E03493CD1BB1DFDA00824FD4 /* taskmanager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E03493CC1BB1DFDA00824FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03493E71BB1DFDA00824FD4 /* LaunchScreen.storyboard in Resources */,
+				E03493E41BB1DFDA00824FD4 /* Assets.xcassets in Resources */,
+				E03493E21BB1DFDA00824FD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E03493CA1BB1DFDA00824FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E034945B1BB43B7800824FD4 /* TaskCategory+CoreDataProperties.m in Sources */,
+				E0C13CD01BB5913800956025 /* CategoryDetailViewController.m in Sources */,
+				E0C13CCA1BB4AD0100956025 /* TaskTableCell.m in Sources */,
+				E034945C1BB43B7800824FD4 /* TaskCategory.m in Sources */,
+				E034945A1BB43B7800824FD4 /* Task.m in Sources */,
+				E0C13CD61BB5BE0300956025 /* SettingsSortTableCell.m in Sources */,
+				E03493DF1BB1DFDA00824FD4 /* DetailViewController.m in Sources */,
+				E03493DC1BB1DFDA00824FD4 /* MasterViewController.m in Sources */,
+				E0C13CD91BB5BF3700956025 /* SettingsNotificationsTableCell.m in Sources */,
+				E03494591BB43B7800824FD4 /* Task+CoreDataProperties.m in Sources */,
+				E03493D61BB1DFDA00824FD4 /* AppDelegate.m in Sources */,
+				E03493D91BB1DFDA00824FD4 /* taskmanager.xcdatamodeld in Sources */,
+				E0C13CCD1BB57E4800956025 /* SettingsTableViewController.m in Sources */,
+				E03493D31BB1DFDA00824FD4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E03493E01BB1DFDA00824FD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E03493E11BB1DFDA00824FD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E03493E51BB1DFDA00824FD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E03493E61BB1DFDA00824FD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E03493E91BB1DFDA00824FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E03493EA1BB1DFDA00824FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E03493EC1BB1DFDA00824FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = taskmanager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.machalik.other.taskmanager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E03493ED1BB1DFDA00824FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = taskmanager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.machalik.other.taskmanager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E03493C91BB1DFDA00824FD4 /* Build configuration list for PBXProject "taskmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03493E91BB1DFDA00824FD4 /* Debug */,
+				E03493EA1BB1DFDA00824FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E03493EB1BB1DFDA00824FD4 /* Build configuration list for PBXNativeTarget "taskmanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E03493EC1BB1DFDA00824FD4 /* Debug */,
+				E03493ED1BB1DFDA00824FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E03493D71BB1DFDA00824FD4 /* taskmanager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E03493D81BB1DFDA00824FD4 /* taskmanager.xcdatamodel */,
+			);
+			currentVersion = E03493D81BB1DFDA00824FD4 /* taskmanager.xcdatamodel */;
+			path = taskmanager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E03493C61BB1DFDA00824FD4 /* Project object */;
+}
